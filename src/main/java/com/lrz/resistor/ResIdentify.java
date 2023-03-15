@@ -21,7 +21,9 @@ public class ResIdentify {
     private static int threshold = 170;   //二值化阈值，根据具体情况调整
     private static int morphOpenSizeX = 20;     //开操作size
     private static int morphOpenSizeY = 20;     //开操作size
-    private static int erodeSizeX = 3;
+    private static int erodeSizeX0 = 3;
+    private static int erodeSizeY0 = 8;   //纵向腐蚀
+    private static int erodeSizeX = 5;
     private static int erodeSizeY = 30;   //纵向腐蚀
 
     //色环BGR值，待测
@@ -49,6 +51,14 @@ public class ResIdentify {
         Imgproc.threshold(src_gray, img_threshold, threshold, 255, Imgproc.THRESH_OTSU);
 
         Imgcodecs.imwrite(PATH + "threshold.jpg", img_threshold);
+
+        //尝试消除阴影导致的误判
+        Core.bitwise_not(img_threshold, img_threshold);
+        Mat element0 = Imgproc.getStructuringElement(Imgproc.MORPH_RECT, new Size(erodeSizeX0, erodeSizeY0));
+        Imgproc.erode(img_threshold, img_threshold, element0, new Point(-1, -1), 1);
+        Core.bitwise_not(img_threshold, img_threshold);
+
+        Imgcodecs.imwrite(PATH + "threshold0.jpg", img_threshold);
 
         // 纵向腐蚀，连接色环反光断点,腐蚀两次
         Mat element = Imgproc.getStructuringElement(Imgproc.MORPH_RECT, new Size(erodeSizeX, erodeSizeY));

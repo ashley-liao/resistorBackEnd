@@ -54,8 +54,8 @@ public class ResLocate {
 
         //开操作消掉部分白色线条和白色斑点
         Mat element = Imgproc.getStructuringElement(Imgproc.MORPH_RECT, new Size(morphOpenSizeX, morphOpenSizeY));
-        //Imgproc.morphologyEx(img_threshold, img_threshold, Imgproc.MORPH_OPEN, element);
-        Imgproc.morphologyEx(img_threshold, img_threshold, Imgproc.MORPH_CLOSE, element);
+        Imgproc.morphologyEx(img_threshold, img_threshold, Imgproc.MORPH_OPEN, element);
+        //Imgproc.morphologyEx(img_threshold, img_threshold, Imgproc.MORPH_CLOSE, element);
         Imgcodecs.imwrite(PATH + "morphology_open.jpg", img_threshold);
 
         //膨胀消除电阻间隔
