@@ -136,7 +136,7 @@ public class ResIdentify {
      * @param src
      */
 
-    public void getColor(Mat src) {
+    public String getColor(Mat src) {
 
         Mat dst = new Mat();
         Imgproc.cvtColor(src, dst, Imgproc.COLOR_BGR2HSV);
@@ -226,8 +226,8 @@ public class ResIdentify {
             }
         }
 
-        System.out.println(dst.size());
-        System.out.println(colorListResult);
+        //System.out.println(dst.size());
+        //System.out.println(colorListResult);
         AtomicReference<String> mostColor = new AtomicReference<>("");
         AtomicInteger mostColorNum = new AtomicInteger();
         colorListResult.forEach((key,value)->{
@@ -236,6 +236,7 @@ public class ResIdentify {
                 mostColorNum.set((Integer) value);
             }
         });
-        System.out.println(mostColor);
+        //System.out.println(mostColor.get());
+        return mostColor.get();
     }
 }

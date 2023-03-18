@@ -26,7 +26,7 @@ public class ResLocate {
      * @param src
      * @return
      */
-    public List<Mat> resLocate(Mat src) {
+    public List<Mat> resLocate(Mat src,List<RotatedRect> rectLoc) {
         List<Mat> resultList = new ArrayList<Mat>();
 
         Mat src_blur = new Mat();
@@ -48,7 +48,7 @@ public class ResLocate {
 
         Imgcodecs.imwrite(PATH + "img_threshold.jpg", img_threshold);
 
-        Core.bitwise_not(img_threshold,img_threshold);
+        //Core.bitwise_not(img_threshold,img_threshold);
         Imgcodecs.imwrite(PATH + "bitwise.jpg", img_threshold);
 
 
@@ -69,6 +69,7 @@ public class ResLocate {
         List<MatOfPoint> contours = new ArrayList<MatOfPoint>();
         Imgproc.findContours(img_threshold, contours, hierarchy, Imgproc.RETR_EXTERNAL, Imgproc.CHAIN_APPROX_NONE);
 
+
         //画出轮廓
         Mat result = new Mat();
         src.copyTo(result);
@@ -84,10 +85,16 @@ public class ResLocate {
                 rects.add(mr);
         }
 
+        //System.out.println(rects.get(0));
+
         for (int i = 0; i < rects.size(); i++) {
             RotatedRect minRect = rects.get(i);
             Point[] rect_points = new Point[4];
             minRect.points(rect_points);
+
+//            System.out.println(rect_points[0]);
+//            System.out.println(minRect.center);
+            rectLoc.add(minRect);
 
             //描边
             for (int j = 0; j < 4; j++) {
@@ -96,6 +103,15 @@ public class ResLocate {
 
                 Imgproc.line(img_threshold, pt1, pt2, new Scalar(255, 0, 255, 255), 4, 8, 0);
             }
+
+            //在原图上绘制轮廓
+            for (int j = 0; j < 4; j++) {
+                Point pt1 = new Point(rect_points[j].x, rect_points[j].y);
+                Point pt2 = new Point(rect_points[(j + 1) % 4].x, rect_points[(j + 1) % 4].y);
+
+                Imgproc.line(src, pt1, pt2, new Scalar(255, 255, 255, 255), 6, 8, 0);
+            }
+            Imgcodecs.imwrite(PATH + "originWithContour.jpg", src);
 
             //旋转垂直方向的电阻
             double r = minRect.size.width / minRect.size.height;

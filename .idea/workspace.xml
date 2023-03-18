@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4095936-325c-4431-a405-5cb4816b164f" name="Default" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lrz/resistor/CalculateRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lrz/resistor/ImageEdit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/img/capacity/circuit.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/img/capacity/debug_crop_18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/img/capacity/debug_crop_21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/img/capacity/debug_crop_22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/img/capacity/debug_crop_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/img/capacity/mcd32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/img/capacity/resistor0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/img/capacity/resistor3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/img/capacity/result.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/img/capacity/template.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/res/img/resistor/bitwise.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/img/resistor/bitwise.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/img/resistor/debug_crop_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/img/resistor/debug_crop_0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/img/resistor/debug_crop_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/img/resistor/debug_crop_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/img/resistor/debug_crop_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/img/resistor/debug_crop_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/img/resistor/debug_crop_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/img/resistor/debug_crop_6.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/res/img/resistor/draw_Contours.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/img/resistor/draw_Contours.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/img/resistor/identify/MORPH_RECT.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/img/resistor/identify/MORPH_RECT.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/img/resistor/identify/bitwise.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/img/resistor/identify/bitwise.jpg" afterDir="false" />
@@ -32,21 +18,41 @@
       <change beforePath="$PROJECT_DIR$/res/img/resistor/identify/debug_crop_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/img/resistor/identify/debug_crop_2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/img/resistor/identify/debug_crop_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/img/resistor/identify/debug_crop_3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/img/resistor/identify/gray.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/img/resistor/identify/gray.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/img/resistor/identify/orange.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/res/img/resistor/identify/threshold.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/img/resistor/identify/threshold.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/img/resistor/identify/threshold0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/img/resistor/identify/threshold0.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/img/resistor/img_threshold.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/img/resistor/img_threshold.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/img/resistor/morphology_dilate.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/img/resistor/morphology_dilate.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/img/resistor/morphology_open.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/img/resistor/morphology_open.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/img/resistor/result.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/img/resistor/result.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/img/resistor/src_blur.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/img/resistor/src_blur.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/img/resistor/src_gray.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/img/resistor/src_gray.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/capacity.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/template.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lrz/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lrz/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrz/capacity/CapLocate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrz/capacity/PolarDetect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrz/resistor/ColorExtract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lrz/resistor/ColorExtract.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lrz/resistor/ResIdentify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lrz/resistor/ResIdentify.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lrz/resistor/ResLocate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lrz/resistor/ResLocate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrz/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lrz/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrz/resistor/ColorExtract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lrz/resistor/ColorExtract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrz/resistor/ResIdentify.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lrz/resistor/ResIdentify.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lrz/resistor/ResLocate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lrz/resistor/ResLocate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/resistor/bitwise.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/img/resistor/bitwise.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/resistor/debug_crop_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/img/resistor/debug_crop_0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/resistor/draw_Contours.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/img/resistor/draw_Contours.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/resistor/identify/MORPH_RECT.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/img/resistor/identify/MORPH_RECT.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/resistor/identify/bitwise.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/img/resistor/identify/bitwise.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/resistor/identify/debug_crop_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/img/resistor/identify/debug_crop_0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/resistor/identify/debug_crop_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/img/resistor/identify/debug_crop_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/resistor/identify/debug_crop_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/img/resistor/identify/debug_crop_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/resistor/identify/debug_crop_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/img/resistor/identify/debug_crop_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/resistor/identify/gray.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/img/resistor/identify/gray.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/resistor/identify/threshold.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/img/resistor/identify/threshold.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/resistor/identify/threshold0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/img/resistor/identify/threshold0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/resistor/img_threshold.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/img/resistor/img_threshold.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/resistor/morphology_dilate.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/img/resistor/morphology_dilate.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/resistor/morphology_open.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/img/resistor/morphology_open.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/resistor/result.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/img/resistor/result.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/resistor/src_blur.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/img/resistor/src_blur.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/resistor/src_gray.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/img/resistor/src_gray.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文本文档.txt" beforeDir="false" afterPath="$PROJECT_DIR$/新建文本文档.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,13 +276,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -373,7 +381,8 @@
       <workItem from="1678335724833" duration="4577000" />
       <workItem from="1678393995736" duration="11079000" />
       <workItem from="1678562259762" duration="12595000" />
-      <workItem from="1678897649292" duration="3516000" />
+      <workItem from="1678897649292" duration="8743000" />
+      <workItem from="1679166652177" duration="9821000" />
     </task>
     <task id="LOCAL-00001" summary="a demo to locate resistors on pcb">
       <created>1509685703206</created>

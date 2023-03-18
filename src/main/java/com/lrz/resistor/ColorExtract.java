@@ -18,7 +18,7 @@ public class ColorExtract {
 
     public static void main(String[] args) {
         //读取颜色图片，尽量减少输入图片中的干扰像素
-        Mat src = Imgcodecs.imread("res/img/resistor/identify/orange.jpg");
+        Mat src = Imgcodecs.imread("res/img/resistor/identify/green.jpg");
         Mat dst = new Mat();
         Imgproc.cvtColor(src, dst, Imgproc.COLOR_BGR2HSV);
         List<Double> H = new ArrayList<Double>();
